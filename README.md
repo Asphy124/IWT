@@ -1,0 +1,21 @@
+- **文件结构**
+  - iwt_for_pde
+    - utils
+      - ``aiwt.py``
+        - 定义了与多尺度自适应小波插值相关的函数
+      - ``iwavelets.py``
+        - 定义了插值小波及其导数相关的函数
+      - ``pde.py``
+        - 与求解burgers方程相关的函数
+      - ``tools.py``
+        - 其他辅助函数（画图）
+    - ``main.py``
+      - 使用Shannon-Cosine Wavelet解一般Burgers方程
+    - note.ipynb
+      - 主程序的注释与示例
+    - code_note
+      - 详细注释与测试了各函数
+- **环境安装**
+    - 使用命令 pip freeze > requirements.txt
+- **运行**
+  - ...
