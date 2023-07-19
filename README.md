@@ -18,4 +18,4 @@
 - **环境安装**
     - 使用命令 pip freeze > requirements.txt
 - **运行**
-  - ...
+  - python main.py
